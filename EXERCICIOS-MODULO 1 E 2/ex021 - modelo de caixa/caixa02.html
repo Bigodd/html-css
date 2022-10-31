@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tags</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            width: auto;
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: orange;
+            padding: 3px;
+            box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.438);
+            
+        }
+
+        nav >a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin: 15px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: brown;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 15px;
+        }
+
+        footer {
+            background-color: blue;
+            color: white;
+            text-align: center;
+        }
+
+        article {
+            background-color: lightblue;
+        }
+
+        article > aside {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <h2>futebol politica religião</h2>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam beatae fugiat, eligendi repudiandae recusandae fugit. Fugit veniam sunt, accusamus sit enim facilis laudantium amet harum earum, consequatur delectus illum error?</p>
+                <aside>
+                    <p>artigo escrito por gabriel da silva</p>
+                </aside>
+            </article>
+            <article>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dicta, ea facere corporis iste deserunt provident blanditiis quidem doloribus fuga. Quaerat distinctio tenetur explicabo reprehenderit labore ratione, at inventore nesciunt.</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CUrso em video</p>
+    </footer>
+</body>
+</html>

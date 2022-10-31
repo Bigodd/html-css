@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+li{
+    display: inline-block;
+    font-weight: bold;
+    padding: 15px;
+     
+ 
+}
+
+ul {
+    text-align: center;
+    margin-top: -65px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h1#principal {
+    margin-top: 5px;
+    position: relative;
+}
+
+img.icone {
+    top: -60px;
+    left: 1200px;
+    position: relative;
+    padding: 10px;
+}
+
